@@ -10,7 +10,7 @@
 body { margin: 0 auto; padding: 24px 18px 64px; max-width: 720px; font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 h1 { font-size: 1.6rem; margin: 0 0 12px; }
 h2 { font-size: 1.15rem; margin: 24px 0 8px; }
-.intro, .vendor, .price, .note, .back { color: #475569; }
+.intro, .vendor, .price, .note, .back, .footer { color: #475569; }
 .disclosure { background: #fef3c7; color: #78350f; padding: 10px 12px; border-radius: 8px; font-size: .95rem; }
 .cards { display: grid; gap: 12px; }
 .card { display: grid; gap: 4px; padding: 14px 16px; border: 1px solid #cbd5e1; border-radius: 12px; text-decoration: none; color: inherit; }
@@ -22,7 +22,7 @@ ul.features { padding-left: 20px; }
 a.button { display: block; text-align: center; padding: 16px 18px; background: #0f766e; color: #fff; font-weight: 700; font-size: 1.05rem; border-radius: 12px; text-decoration: none; }
 @media (prefers-color-scheme: dark) {
 body { background: #0b1020; color: #e2e8f0; }
-.intro, .vendor, .price, .note, .back { color: #94a3b8; }
+.intro, .vendor, .price, .note, .back, .footer { color: #94a3b8; }
 .disclosure { background: #3f2d09; color: #fde68a; }
 .card { border-color: #334155; }
 }
@@ -31,6 +31,7 @@ body { background: #0b1020; color: #e2e8f0; }
 <body>
 <h1>KazanBox</h1>
 <p class="intro">Every product here is listed with the facts from its official product page. Prices and availability can change.</p>
+<p class="note">KazanBox is a single-user Windows desktop application. It uses the official YouTube Data API only to upload owner-approved videos to the owner's own KazanBox channel and to verify their publication status.</p>
 <p class="disclosure">#ad &#183; Digistore24 affiliate link — KazanBox may earn a commission from qualifying purchases.</p>
 <div class="cards">
     <a class="card" href="products/easy-scroll-saw-patterns/">
@@ -60,5 +61,6 @@ body { background: #0b1020; color: #e2e8f0; }
     </a>
 
 </div>
+<p class="footer"><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> · <a href="https://www.youtube.com/t/terms" rel="noopener">YouTube Terms of Service</a></p>
 </body>
 </html>

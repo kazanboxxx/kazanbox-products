@@ -10,7 +10,7 @@
 body { margin: 0 auto; padding: 24px 18px 64px; max-width: 720px; font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 h1 { font-size: 1.6rem; margin: 0 0 12px; }
 h2 { font-size: 1.15rem; margin: 24px 0 8px; }
-.intro, .vendor, .price, .note, .back { color: #475569; }
+.intro, .vendor, .price, .note, .back, .footer { color: #475569; }
 .disclosure { background: #fef3c7; color: #78350f; padding: 10px 12px; border-radius: 8px; font-size: .95rem; }
 .cards { display: grid; gap: 12px; }
 .card { display: grid; gap: 4px; padding: 14px 16px; border: 1px solid #cbd5e1; border-radius: 12px; text-decoration: none; color: inherit; }
@@ -22,19 +22,15 @@ ul.features { padding-left: 20px; }
 a.button { display: block; text-align: center; padding: 16px 18px; background: #0f766e; color: #fff; font-weight: 700; font-size: 1.05rem; border-radius: 12px; text-decoration: none; }
 @media (prefers-color-scheme: dark) {
 body { background: #0b1020; color: #e2e8f0; }
-.intro, .vendor, .price, .note, .back { color: #94a3b8; }
+.intro, .vendor, .price, .note, .back, .footer { color: #94a3b8; }
 .disclosure { background: #3f2d09; color: #fde68a; }
 .card { border-color: #334155; }
 }
 </style>
 </head>
 <body>
-<h1>KazanBox — Privacy Policy (DRAFT, not published yet)</h1>
-<p>&gt; Draft status: prepared 2026-09-12 for the TikTok for Developers app review, which requires a</p>
-<p>&gt; Privacy Policy visible on the developer&#39;s official website. **Nothing is published until the</p>
-<p>&gt; owner approves the hosting.** `&lt;CONTACT_EMAIL&gt;` must be replaced with the address the owner</p>
-<p>&gt; agrees to show publicly.</p>
-<p>Last updated: 2026-09-12</p>
+<h1>KazanBox — Privacy Policy</h1>
+<p>Last updated: 2026-09-15</p>
 <h2>What KazanBox is</h2>
 <p>KazanBox is a single-user desktop application for Windows. Its owner installs and runs it on their</p>
 <p>own computer to prepare and publish their own social media content (short product-discovery videos</p>
@@ -43,7 +39,7 @@ body { background: #0b1020; color: #e2e8f0; }
 <p>runs only on the owner&#39;s computer.</p>
 <h2>What data the application handles</h2>
 <p>• **The owner&#39;s own connected accounts:** account identifier and display name returned by the</p>
-<p>platform (for example TikTok `open_id` and display name, YouTube channel id and title), used only</p>
+<p>platform (for example TikTok <code>open_id</code> and display name, YouTube channel id and title), used only</p>
 <p>to confirm that the correct account is connected.</p>
 <p>• **OAuth tokens** issued by the platforms for the owner&#39;s own accounts.</p>
 <p>• **Content data:** the videos rendered on the owner&#39;s computer, their titles, descriptions,</p>
@@ -63,6 +59,12 @@ body { background: #0b1020; color: #e2e8f0; }
 <p>platform the content is published to (for example TikTok, YouTube), and the affiliate providers whose</p>
 <p>official data and reports the owner uses. No data is sent to KazanBox (there is no KazanBox server),</p>
 <p>to analytics services or to advertising networks.</p>
+<h2>YouTube API Services</h2>
+<p>KazanBox uses the official YouTube Data API only for the owner&#39;s own KazanBox channel. It requests</p>
+<p><code>youtube.upload</code> to upload videos approved by the owner and <code>youtube.readonly</code> to verify the selected</p>
+<p>channel, publication status, and official metrics. KazanBox does not access another user&#39;s channel or</p>
+<p>private YouTube data. Use of information received from YouTube APIs follows the YouTube API Services</p>
+<p>Terms of Service and the Google Privacy Policy: <a href="https://policies.google.com/privacy" rel="noopener">https://policies.google.com/privacy</a></p>
 <h2>What data is never used</h2>
 <p>Platform data is not sold, rented, shared with third parties, used for advertising targeting, or used</p>
 <p>to train machine-learning models. The application does not scrape platforms, does not create</p>
@@ -73,12 +75,13 @@ body { background: #0b1020; color: #e2e8f0; }
 <p>removing the application&#39;s data folder, and can revoke the application&#39;s access at any time from the</p>
 <p>platform&#39;s own settings (for example TikTok Settings &gt; Security and permissions &gt; Manage app</p>
 <p>permissions, or Google Account &gt; Third-party access). Revoking access stops all API use immediately.</p>
+<p>The owner may also request deletion or ask a privacy question by emailing the contact address below.</p>
 <h2>Children</h2>
 <p>The application is used only by its adult owner and is not directed to children.</p>
 <h2>Changes</h2>
 <p>If this policy changes, the new version is published at the same address with an updated date.</p>
 <h2>Contact</h2>
-<p>`&lt;CONTACT_EMAIL&gt;`</p>
+<p>kazanboxxx@gmail.com</p>
 
 </body>
 </html>
